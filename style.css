@@ -355,3 +355,104 @@ body {
 }
 
 .about-text button:hover {background-color: hsl(120, 26%, 50%);}
+
+/* Footer */
+footer {
+    background-color: rgb(1, 55, 1);
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 185px;
+    padding-top: 50px;
+    gap: 200px;
+    height: 800px;
+    margin-top: 70px;
+}
+
+.footer-part-one {
+    display: flex;
+    gap: 80px;
+}
+
+.about-us-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-us-footer h5 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.about-footer li {
+    list-style: none;
+}
+
+.about-footer a {
+    text-decoration: none;
+    color: rgb(215, 215, 215);
+    font-size: 14px;
+}
+
+.about-footer a:hover {color: white;}
+
+.about-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-part-two {
+    display: flex;
+    gap: 200px;
+    padding-left: 153px;
+    align-items: center;
+}
+
+.contact-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-footer a {
+    color: rgb(215, 215, 215);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contact-footer a:hover {color: white;}
+
+.contact-footer svg:hover {color: hsl(120, 25%, 80%);}
+
+.footer-icons {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-app {
+    border: 1px solid hsl(0, 0%, 33%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.footer-app h5 {
+    font-size: 15px;
+    color: white;
+}
+
+.footer-app p {
+    color: rgb(215, 215, 215);
+    font-size: 14px;
+}
+
+.app-images {
+    display: flex;
+    gap: 10px;
+}
