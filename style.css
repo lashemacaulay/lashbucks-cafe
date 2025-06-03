@@ -556,21 +556,51 @@ footer {
 }
 
 /* Contact page */
+.learn-history-text button {
+    background-color: white;
+    color: black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 15px;
+    font-family: sans-serif;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.learn-history-text button:hover {background-color: hsl(120, 25%, 80%);}
+
 .bucks-contact-text {
     display: flex;
     flex-direction: column;
     width: 65%;
     gap: 70px;
     background-color: rgb(247, 247, 247);
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .contact-uz {
     padding-left: 150px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    padding-bottom: 50px;
+    gap: 25px;
+    padding-bottom: 65px;
+}
+
+.za-header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.za-header h1 {
+    font-weight: normal;
+    font-size: 40px;
 }
 
 .contact-uz p {
@@ -595,7 +625,7 @@ footer {
     margin-top: 0px;
 }
 
-.about-footers .on-about  {
+.about-footers .on-contact  {
     color: white;
     text-decoration: underline;
 }
