@@ -483,6 +483,8 @@ footer {
     gap: 550px;
     width: 35%;
     height: 100vh;
+    position: sticky;
+    top: 0;
 }
 
 .learn-history-text{
@@ -543,22 +545,12 @@ footer {
     color: black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* About footer section */
-.about-footer {
+.about-footers {
     margin-top: 0px;
+}
+
+.about-footers .on-about  {
+    color: white;
+    text-decoration: underline;
 }
