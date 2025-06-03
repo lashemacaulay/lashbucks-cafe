@@ -375,6 +375,8 @@ footer {
     gap: 80px;
 }
 
+.footer-part-one a {height: fit-content;}
+
 .about-us-footer {
     display: flex;
     flex-direction: column;
@@ -455,4 +457,30 @@ footer {
 .app-images {
     display: flex;
     gap: 10px;
+}
+
+/* ABOUT PAGE */
+.lashbucks-about-us {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sidebar */
+.logo-learn-history {
+    background-color: rgb(1, 55, 1);
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 550px;
+}
+
+.learn-history-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
