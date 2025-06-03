@@ -21,11 +21,10 @@ body {
     height: 101px;
     justify-content: center;
     align-items: center;
-    gap: 1000px;
-    position: sticky;
-    top: 0;
+    gap: 890px;
+    position: fixed;
+    top: 0px;
     width: 100%;
-    margin-bottom: 30px;
 }
 
 .menu-list {
@@ -89,6 +88,7 @@ body {
     display: flex;
     width: 1100px;
     justify-content: center;
+    margin-top: 150px;
     margin-bottom: 70px;
 }
 
