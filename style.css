@@ -554,3 +554,48 @@ footer {
     color: white;
     text-decoration: underline;
 }
+
+/* Contact page */
+.bucks-contact-text {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 70px;
+    background-color: rgb(247, 247, 247);
+    padding-top: 50px;
+}
+
+.contact-uz {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.contact-uz p {
+    width: 650px;
+    font-size: 15px;
+    color: rgb(130, 130, 130);
+}
+
+.same-spazing {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.same-spazing h3 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+/* Contact footer section */
+.about-footers {
+    margin-top: 0px;
+}
+
+.about-footers .on-about  {
+    color: white;
+    text-decoration: underline;
+}
