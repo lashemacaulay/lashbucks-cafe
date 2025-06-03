@@ -460,18 +460,21 @@ footer {
 }
 
 /* ABOUT PAGE */
+.about-body {
+    display: flex;
+    flex-direction: column;
+}
+
 .lashbucks-about-us {
-    margin-top: 300px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
 }
 
 /* Sidebar */
 .logo-learn-history {
     background-color: rgb(1, 55, 1);
-    height: 100vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -479,6 +482,7 @@ footer {
     align-items: center;
     gap: 550px;
     width: 35%;
+    height: 100vh;
 }
 
 .learn-history-text{
@@ -491,6 +495,70 @@ footer {
 
 /* About us text section */
 .bucks-about-text {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
     width: 65%;
+    gap: 70px;
+    background-color: rgb(247, 247, 247);
+}
+
+.bucks-about-text img {
+    width: 100%;
+    height: 470px;
+}
+
+.about-uz {
+    padding-left: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.about-uz p {
+    width: 650px;
+    font-size: 15px;
+    color: rgb(130, 130, 130);
+}
+
+.same-spacing {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.same-spacing h3 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.same-spacing .make-italic-bold {
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+.same-spacing .just-bold {
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About footer section */
+.about-footer {
+    margin-top: 0px;
 }
