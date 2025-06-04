@@ -203,7 +203,34 @@ h1 {
 
 .bakery-treats p {color: black;}
 
+.product-area {
+    margin-top: 300px;
+    display: flex;
+    gap: 100px;
+}
 
+.product-area img {
+    border-radius: 50%;
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.back-button {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    margin-top: 200px;
+    cursor: pointer;
+}
 
 /* Footer */
 footer {
