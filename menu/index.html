@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Homepage | Lashbucks</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <title>Order-Menu | Lashbucks</title>
 </head>
 <body>
     <nav class="navbar-two">
@@ -20,35 +21,52 @@
         </div>
     </nav>
     <h1>Menu</h1>
-    <input id="search" type="search" placeholder="Search our menu!">
-    <div class="drinks">
-        <h2>Drinks</h2>
-        <div class="brewed-coffee">
-            <img src="" alt="">
-            <p>Brewed Coffee</p>
-        </div>
-        <div class="hot-tea">
-            <img src="" alt="">
-            <p>Hot Tea</p>
-        </div>
-        <div class="hot-chocolate">
-            <img src="" alt="">
-            <p>Hot Chocolate</p>
-        </div>
+    <div class="search-bar">
+        <input id="search" type="search" placeholder="Search our menu!">
+        <span class="material-symbols-outlined">
+            search
+        </span>
     </div>
-    <div class="food">
-        <h2>Food</h2>
-        <div class="breakfast">
-            <img src="" alt="">
-            <p>Breakfast</p>
+    <div class="menu-area">
+        <div class="drinks">
+            <h2>Drinks</h2>
+            <div class="drinks-container">
+                <a href="./brewed-coffee/index.html">
+                    <div class="brewed-coffee">
+                        <img src="https://www.starbucks.co.uk/_next/image?url=https%3A%2F%2Fwww.digitalassets.starbucks.eu%2Fsites%2Fstarbucks-medialibrary%2Ffiles%2Fassets%2F5b4a049fe41eb1994399b879b7f81256_0.jpg&w=256&q=75" alt="" width="80px" height="80px">
+                        <p>Brewed Coffee</p>
+                    </div>
+                </a>
+                <a href="./hot-tea/index.html">
+                    <div class="hot-tea">
+                        <img src="" alt="" width="80px" height="80px">
+                        <p>Hot Tea</p>
+                    </div>
+                </a>
+                <a href="./hot-chocolate/index.html">
+                    <div class="hot-chocolate">
+                        <img src="" alt="" width="80px" height="80px">
+                        <p>Hot Chocolate</p>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="snacks">
-            <img src="" alt="">
-            <p>Snacks</p>
-        </div>
-        <div class="bakery-treats">
-            <img src="" alt="">
-            <p>Bakery Treats</p>
+        <div class="food">
+            <h2>Food</h2>
+            <div class="food-container">
+                <div class="breakfast">
+                    <img src="" alt="" width="80px" height="80px">
+                    <p>Breakfast</p>
+                </div>
+                <div class="snacks">
+                    <img src="" alt="" width="80px" height="80px">
+                    <p>Snacks</p>
+                </div>
+                <div class="bakery-treats">
+                    <img src="" alt="" width="80px" height="80px">
+                    <p>Bakery Treats</p>
+                </div>
+            </div>
         </div>
     </div>
     <footer>
