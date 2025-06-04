@@ -251,3 +251,15 @@ footer {
     display: flex;
     gap: 10px;
 }
+
+.back-link {
+    margin-top: 100px;
+    height: fit-content;
+}
+
+.back-button {
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
