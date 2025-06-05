@@ -21,7 +21,7 @@ body {
     height: 101px;
     justify-content: center;
     align-items: center;
-    gap: 890px;
+    gap: 500px;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -34,7 +34,11 @@ body {
     align-items: center;
 }
 
-.navbar-menu {list-style-type: none;}
+.navbar-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
 
 .navbar-menu a {
     text-decoration: none;
