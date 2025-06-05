@@ -49,6 +49,22 @@ body {
     font-family: sans-serif;
 }
 
+.after-style-contact::after {
+    content: "";
+    width: 70px;
+    background-color: rgb(62, 25, 25);
+    height: 2px;
+    position: absolute;
+}
+
+.after-style-body::after {
+    content: "";
+    width: 50px;
+    background-color: rgb(62, 25, 25);
+    height: 2px;
+    position: absolute;
+}
+
 .navbar-menu a:hover {color: rgb(102, 50, 50);}
 
 .connect {
@@ -568,8 +584,8 @@ footer {
 
 /* Contact page */
 .learn-history-text button {
-    background-color: white;
-    color: black;
+    background-color: rgb(62, 25, 25);
+    color: white;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -583,14 +599,14 @@ footer {
     transition: all 0.2s ease-in;
 }
 
-.learn-history-text button:hover {background-color: hsl(120, 25%, 80%);}
+.learn-history-text button:hover {background-color: rgb(102, 50, 50);}
 
 .bucks-contact-text {
     display: flex;
     flex-direction: column;
     width: 65%;
     gap: 70px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(62, 25, 25);
     padding-top: 70px;
 }
 
@@ -612,6 +628,7 @@ footer {
 .za-header h1 {
     font-weight: normal;
     font-size: 40px;
+    color: white;
 }
 
 .contact-uz p {
@@ -629,6 +646,7 @@ footer {
 .same-spazing h3 {
     font-weight: normal;
     font-size: 20px;
+    color: white;
 }
 
 /* Contact footer section */
