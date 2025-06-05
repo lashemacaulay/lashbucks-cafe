@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    background-color: rgb(62, 25, 25);
 }
 
 /* Navigation bar */
@@ -48,7 +49,7 @@ body {
     font-family: sans-serif;
 }
 
-.navbar-menu a:hover {color: rgb(0, 91, 0);}
+.navbar-menu a:hover {color: rgb(102, 50, 50);}
 
 .connect {
     display: flex;
@@ -101,22 +102,22 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    background-color: rgb(0, 91, 0);
+    background-color: white;
     border-bottom-left-radius: 6px;
     border-top-left-radius: 6px;
     gap: 30px;
 }
 
 .app-text h1 {
-    color: white;
+    color: rgb(62, 25, 25);
     font-family: sans-serif;
 }
 
 .app-text a {width: fit-content;}
 
 .app-text button {
-    background-color: white;
-    color: black;
+    background-color: rgb(62, 25, 25);
+    color: white;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -130,7 +131,7 @@ body {
     transition: all 0.2s ease-in;
 }
 
-.app-text button:hover {background-color: hsl(120, 25%, 80%);}
+.app-text button:hover {background-color: rgb(102, 50, 50);}
 
 .download-app img {
     border-bottom-right-radius: 6px;
@@ -150,7 +151,7 @@ body {
 }
 
 .lashbucks-rewards h2 {
-    width: 570px;
+    color: white;
 }
 
 .reward-points-group {
@@ -165,6 +166,11 @@ body {
     gap: 20px;
 }
 
+.reward-points img {
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
 .reward-points-text {
     display: flex;
     flex-direction: column;
@@ -172,9 +178,9 @@ body {
     width: 230px;
 }
 
-.reward-points-text p {
-    color: rgb(130, 130, 130);
-}
+.reward-points-text h4 {color: white;}
+
+.reward-points-text p {color: rgb(130, 130, 130);}
 
 .connect-2 {
     display: flex;
@@ -189,17 +195,15 @@ body {
     border-bottom-left-radius: 50px;
     padding: 15px;
     border: none;
-    color: white;
-    background-color: rgb(0, 91, 0);
+    color: rgb(62, 25, 25);
+    background-color: rgb(242, 242, 242);
     font-weight: bold;
     font-size: 15px;
     transition: all 0.2s ease-in;
     cursor: pointer;
 }
 
-.join-now-connect2:hover {
-    background-color: hsl(120, 26%, 50%);
-}
+.join-now-connect2:hover {background-color: rgb(230, 230, 230);}
 
 .sign-in-connect2 {
     border-top-left-radius: 50px;
@@ -207,9 +211,9 @@ body {
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
     padding: 15px;
-    border: 1px solid rgb(0, 91, 0);
+    border: 1px solid rgb(62, 25, 25);
     background-color: white;
-    color: rgb(0, 91, 0);
+    color: rgb(62, 25, 25);
     font-weight: bold;
     font-size: 15px;
     transition: all 0.2s ease-in;
@@ -238,8 +242,8 @@ body {
 }
 
 .summer-1-text {
-    background-color: rgb(0, 91, 0);
-    color: white;
+    background-color: rgb(242, 242, 242);
+    color: black;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -255,8 +259,8 @@ body {
 }
 
 .summer-1-text button {
-    background-color: white;
-    color: black;
+    background-color: rgb(62, 25, 25);
+    color: white;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -270,7 +274,7 @@ body {
     transition: all 0.2s ease-in;
 }
 
-.summer-1-text button:hover {background-color: hsl(120, 25%, 80%);}
+.summer-1-text button:hover {background-color: rgb(102, 50, 50);}
 
 .summer-2 {
     display: flex;
@@ -306,14 +310,14 @@ body {
     padding: 15px;
     border: none;
     color: white;
-    background-color: rgb(0, 91, 0);
+    background-color: rgb(62, 25, 25);
     font-weight: bold;
     font-size: 15px;
     transition: all 0.2s ease-in;
     cursor: pointer;
 }
 
-.summer-2-text button:hover {background-color: hsl(120, 26%, 50%);}
+.summer-2-text button:hover {background-color: rgb(102, 50, 50);}
 
 .about {
     display: flex;
@@ -351,26 +355,25 @@ body {
     padding: 15px;
     border: none;
     color: white;
-    background-color: rgb(0, 91, 0);
+    background-color: rgb(62, 25, 25);
     font-weight: bold;
     font-size: 15px;
     transition: all 0.2s ease-in;
     cursor: pointer;
 }
 
-.about-text button:hover {background-color: hsl(120, 26%, 50%);}
+.about-text button:hover {background-color: rgb(102, 50, 50);}
 
 /* Footer */
 footer {
-    background-color: rgb(1, 55, 1);
+    background-color: rgb(185, 183, 183);
     width: 100%;
-    color: white;
+    color: rgb(62, 25, 25);
     display: flex;
     flex-direction: column;
     padding-left: 185px;
     padding-top: 50px;
-    gap: 200px;
-    height: 800px;
+    height: 400px;
     margin-top: 70px;
 }
 
@@ -398,11 +401,11 @@ footer {
 
 .about-footer a {
     text-decoration: none;
-    color: rgb(215, 215, 215);
+    color: rgb(62, 25, 25);
     font-size: 14px;
 }
 
-.about-footer a:hover {color: white;}
+.about-footer a:hover {color: rgb(102, 50, 50);}
 
 .about-footer {
     display: flex;
@@ -424,14 +427,14 @@ footer {
 }
 
 .contact-footer a {
-    color: rgb(215, 215, 215);
+    color: rgb(62, 25, 25);
     font-size: 14px;
     text-decoration: none;
 }
 
-.contact-footer a:hover {color: white;}
+.contact-footer a:hover {color: rgb(102, 50, 50);}
 
-.contact-footer svg:hover {color: hsl(120, 25%, 80%);}
+.contact-footer svg:hover {color: rgb(102, 50, 50);}
 
 .footer-icons {
     display: flex;
@@ -450,11 +453,11 @@ footer {
 
 .footer-app h5 {
     font-size: 15px;
-    color: white;
+    color: rgb(62, 25, 25);
 }
 
 .footer-app p {
-    color: rgb(215, 215, 215);
+    color: rgb(62, 25, 25);
     font-size: 14px;
 }
 
