@@ -10,10 +10,12 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    background-color: rgb(62, 25, 25);
+    color: white;
 }
 
 /* Navigation bar */
-.navbar-two {
+.navbar {
     display: flex;
     z-index: 100;
     border-bottom: 1px rgb(219, 210, 210) solid;
@@ -21,7 +23,7 @@ body {
     height: 101px;
     justify-content: center;
     align-items: center;
-    gap: 890px;
+    gap: 500px;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -34,7 +36,11 @@ body {
     align-items: center;
 }
 
-.navbar-menu {list-style-type: none;}
+.navbar-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
 
 .navbar-menu a {
     text-decoration: none;
@@ -44,15 +50,23 @@ body {
     font-family: sans-serif;
 }
 
-.navbar-menu a::after {
+.after-style-contact::after {
     content: "";
     width: 43px;
-    background-color: green;
+    background-color: rgb(62, 25, 25);
     height: 2px;
     position: absolute;
 }
 
-.navbar-menu a:hover {color: rgb(0, 91, 0);}
+.after-style-body::after {
+    content: "";
+    width: 50px;
+    background-color: rgb(62, 25, 25);
+    height: 2px;
+    position: absolute;
+}
+
+.navbar-menu a:hover {color: rgb(102, 50, 50);}
 
 .connect {
     display: flex;
@@ -151,13 +165,19 @@ h1 {
     gap: 30px;
 }
 
-.brewed-coffee img {border-radius: 50%;}
+.brewed-coffee img {
+    border-radius: 50%;
+    border: 5px solid black;
+}
 
-.breakfast img {border-radius: 50%;}
+.breakfast img {
+    border-radius: 50%;
+    border: 5px solid black;
+}
 
-.brewed-coffee p {color: black;}
+.brewed-coffee p {color: white;}
 
-.breakfast p {color: black;}
+.breakfast p {color: white;}
 
 .hot-tea {
     display: flex;
@@ -165,9 +185,12 @@ h1 {
     gap: 30px;
 }
 
-.hot-tea img {border-radius: 50%;}
+.hot-tea img {
+    border-radius: 50%;
+    border: 5px solid black;
+}
 
-.hot-tea p {color: black;}
+.hot-tea p {color: white;}
 
 .hot-chocolate {
     display: flex;
@@ -175,9 +198,12 @@ h1 {
     gap: 30px;
 }
 
-.hot-chocolate img {border-radius: 50%;}
+.hot-chocolate img {
+    border-radius: 50%;
+    border: 5px solid black;
+}
 
-.hot-chocolate p {color: black;}
+.hot-chocolate p {color: white;}
 
 .drinks h2 {font-size: 25px;}
 
@@ -189,9 +215,12 @@ h1 {
     gap: 30px;
 }
 
-.snacks img {border-radius: 50%;}
+.snacks img {
+    border-radius: 50%;
+    border: 5px solid black;
+}
 
-.snacks p {color: black;}
+.snacks p {color: white;}
 
 .bakery-treats {
     display: flex;
@@ -199,9 +228,12 @@ h1 {
     gap: 30px;
 }
 
-.bakery-treats img {border-radius: 50%;}
+.bakery-treats img {
+    border-radius: 50%;
+    border: 5px solid black;
+}
 
-.bakery-treats p {color: black;}
+.bakery-treats p {color: white;}
 
 .product-area {
     margin-top: 300px;
@@ -225,24 +257,24 @@ h1 {
 }
 
 .back-button {
-    background-color: white;
+    background-color: rgb(62, 25, 25);
     border: none;
     font-size: 20px;
     margin-top: 200px;
     cursor: pointer;
+    color: white;
 }
 
 /* Footer */
 footer {
-    background-color: rgb(1, 55, 1);
+    background-color: rgb(185, 183, 183);
     width: 100%;
-    color: white;
+    color: rgb(62, 25, 25);
     display: flex;
     flex-direction: column;
     padding-left: 185px;
     padding-top: 50px;
-    gap: 200px;
-    height: 800px;
+    height: 400px;
     margin-top: 70px;
 }
 
@@ -270,11 +302,11 @@ footer {
 
 .about-footer a {
     text-decoration: none;
-    color: rgb(215, 215, 215);
+    color: rgb(62, 25, 25);
     font-size: 14px;
 }
 
-.about-footer a:hover {color: white;}
+.about-footer a:hover {color: rgb(102, 50, 50);}
 
 .about-footer {
     display: flex;
@@ -296,14 +328,14 @@ footer {
 }
 
 .contact-footer a {
-    color: rgb(215, 215, 215);
+    color: rgb(62, 25, 25);
     font-size: 14px;
     text-decoration: none;
 }
 
-.contact-footer a:hover {color: white;}
+.contact-footer a:hover {color: rgb(102, 50, 50);}
 
-.contact-footer svg:hover {color: hsl(120, 25%, 80%);}
+.contact-footer svg:hover {color: rgb(102, 50, 50);}
 
 .footer-icons {
     display: flex;
@@ -322,11 +354,11 @@ footer {
 
 .footer-app h5 {
     font-size: 15px;
-    color: white;
+    color: rgb(62, 25, 25);
 }
 
 .footer-app p {
-    color: rgb(215, 215, 215);
+    color: rgb(62, 25, 25);
     font-size: 14px;
 }
 
