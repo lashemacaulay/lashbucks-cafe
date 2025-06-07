@@ -29,7 +29,7 @@ body {
 }
 
 .hamburger-menu {
-    margin-top: 77px;
+    margin-top: 75px;
     z-index: 100;
     width: 100%;
     height: 100vh;
@@ -699,6 +699,17 @@ footer {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 1300px) {
+    .same-spacing p {
+        width: fit-content;
+    }
+
+    .about-uz {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 @media screen and (max-width: 1192px) {
     .navbar {
         gap: 300px;
@@ -714,6 +725,7 @@ footer {
         height: fit-content;
         justify-content: center;
         gap: 20px;
+        padding-bottom: 50px;
     }
 
     .footer-part-two {
@@ -829,6 +841,14 @@ footer {
         grid-template-columns: 80%;
         overflow: hidden;
     }
+
+    .logo-learn-history img {
+        width: 80%;
+    }
+    
+    .lashbucks-about-us {
+        margin-top: 75px;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -879,6 +899,30 @@ footer {
     .order-about button {
         width: 100%;
     }
+
+    .lashbucks-about-us {
+        flex-direction: column;
+    }
+
+    .logo-learn-history {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        position: static;
+        gap: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .logo-learn-history img {
+        height: 200px;
+        width: auto;
+    }
+
+    .bucks-about-text {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -892,7 +936,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0;
+        padding: 0 0 50px 0;
     }
 
     .footer-part-one {
