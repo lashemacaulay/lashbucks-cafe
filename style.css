@@ -708,6 +708,19 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    .same-spazing p {
+        width: fit-content;
+    }
+
+    .za-header p {
+        width: fit-content;
+    }
+
+    .contact-uz {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media screen and (max-width: 1192px) {
@@ -921,6 +934,10 @@ footer {
     }
 
     .bucks-about-text {
+        width: 100%;
+    }
+
+    .bucks-contact-text {
         width: 100%;
     }
 }
