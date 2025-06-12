@@ -29,6 +29,44 @@ body {
     width: 100%;
 }
 
+.hamburger-menu {
+    margin-top: 75px;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(62, 25, 25);
+    display: none;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+.ham-lines {
+    height: 3px;
+    background-color: black;
+    display: block;
+    width: 30px;
+}
+
+.hamburger.open .ham-lines:nth-child(1) {
+    transform: rotate(45deg) translate(5px,5px);
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger.open .ham-lines:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open .ham-lines:nth-child(3) {
+    transform: rotate(-45deg) translate(6px,-6px);
+    transition: all 0.3s ease-in-out;
+}
+
 .menu-list {
     display: flex;
     gap: 130px;
@@ -52,7 +90,15 @@ body {
 
 .after-style-contact::after {
     content: "";
-    width: 43px;
+    width: 70px;
+    background-color: rgb(62, 25, 25);
+    height: 2px;
+    position: absolute;
+}
+
+.after-style-menu::after {
+    content: "";
+    width: 45px;
     background-color: rgb(62, 25, 25);
     height: 2px;
     position: absolute;
@@ -115,12 +161,43 @@ h1 {
     display: flex;
     align-items: center;
     margin-top: 60px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0px 10px;
 }
 
-#search {
-    width: 200px;
+#clearSearch {
+    color: red;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    margin-right: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+#searchBar {
+    width: 500px;
     height: 50px;
     font-size: 20px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#searchBar:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.material-symbols-outlined {
+    color: black;
 }
 
 .menu-area {
@@ -365,4 +442,287 @@ footer {
 .app-images {
     display: flex;
     gap: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    .same-spacing p {
+        width: fit-content;
+    }
+
+    .about-uz {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .same-spazing p {
+        width: fit-content;
+    }
+
+    .za-header p {
+        width: fit-content;
+    }
+
+    .contact-uz {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1192px) {
+    .navbar {
+        gap: 300px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .reward-points {
+        width: 250px;
+    }
+
+    footer {
+        height: fit-content;
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+
+    .footer-part-two {
+        flex-direction: column;
+        width: 270px;
+        gap: 30px;
+        padding-left: 157px;
+    }
+
+    .order-about {
+        grid-template-columns: repeat(2, 450px);
+    }
+
+    .download-app img {
+        width: 500px;
+    }
+    
+    .download-app {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .navbar {
+        height: 75px;
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+    .connect {
+        display: none;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        position: fixed;
+        top: 0px;
+        right: -100%;
+        transition: all 0.3s ease-in;
+    }
+
+    .hamburger-menu.active {
+        right: 0;
+    }
+
+    .burger-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .burger-menu a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .ham-connect {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ham-connect .join-now, .ham-connect .sign-in {
+        width: 200px;
+    }
+
+    .hamburger {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        padding-right: 50px;
+        transition: all 0.3s ease-out;
+    }
+
+    .download-app {
+        width: 100%;
+        margin-top: 75px;
+    }
+
+    .app-text {
+        width: 30%;
+        border-radius: 0;
+    }
+
+    .download-app img {
+        width: 70%;
+        border-radius: 0;
+    }
+
+    .reward-points-group {
+        flex-direction: column;
+        padding-left: 80px;
+    }
+
+    .reward-points  {
+        width: 100%;
+    }
+
+    .reward-points-text {
+        width: 100%;
+    }
+
+    .order-about {
+        grid-template-columns: 80%;
+        overflow: hidden;
+    }
+
+    .logo-learn-history img {
+        width: 80%;
+    }
+    
+    .lashbucks-about-us {
+        margin-top: 75px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .download-app {
+        flex-direction: column;
+    }
+    
+    .app-text {
+        width: 100%;
+    }
+
+    .app-text a {
+        width: 100%;
+    }
+
+    .app-text button {
+        width: 100%;
+    }
+
+    .download-app img {
+        width: 100%;
+    }
+
+    .connect-2 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .connect-2 a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .connect-2 button {
+        width: 95%;
+    }
+
+    .order-about {
+        grid-template-columns: 95%;
+    }
+
+    .order-about a {
+        width: 100%;
+    }
+
+    .order-about button {
+        width: 100%;
+    }
+
+    .lashbucks-about-us {
+        flex-direction: column;
+    }
+
+    .logo-learn-history {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        position: static;
+        gap: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .logo-learn-history img {
+        height: 200px;
+        width: auto;
+    }
+
+    .bucks-about-text {
+        width: 100%;
+    }
+
+    .bucks-contact-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .reward-points-group {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 50px 0;
+    }
+
+    .footer-part-one {
+        justify-content: center;
+        padding: 20px 20px;
+    }
+
+    .footer-part-two {
+        width: 100%;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    
+    .footer-app {
+        width: 80%;
+    }
+
+    .app-images img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        gap: 10px;
+    }
 }
