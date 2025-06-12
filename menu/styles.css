@@ -98,7 +98,7 @@ body {
 
 .after-style-menu::after {
     content: "";
-    width: 45px;
+    width: 43px;
     background-color: rgb(62, 25, 25);
     height: 2px;
     position: absolute;
@@ -607,6 +607,10 @@ footer {
     .lashbucks-about-us {
         margin-top: 75px;
     }
+
+    .product-area {
+        padding: 50px;
+    }
 }
 
 @media (max-width: 820px) {
@@ -747,6 +751,13 @@ footer {
     #searchBar {
         width: 300px;
     }
+
+    .product-area {
+        padding: 10px;
+        gap: 50px;
+    }
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -761,6 +772,11 @@ footer {
     }
 
     .food-container {
+        gap: 20px;
+    }
+    
+    .product-area {
+        padding: 5px;
         gap: 20px;
     }
 }
